@@ -6,8 +6,8 @@ void main()
 	int levelN;
 	int nodeNum;
 	int nodeResult=0;
-	cout<<"레벨을 입력해 주세요"<<endl;
-	cin >> levelN;
+	cout <<"레벨을 입력해 주세요 , 단: 128개의 노드까지 가능"<<endl;
+	cin  >> levelN;
 	cout <<endl;
 	cout <<"***************************"<<endl;
 	for(int i=0; i<levelN; i++)
